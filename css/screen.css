@@ -32,9 +32,12 @@ html {
     line-height: 32px;
     font-family: "Clear Sans" ,Helvetica, arial, sans-serif;
     font-weight: 200;
+    color: white;
     box-sizing: border-box;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    background-image: linear-gradient(to bottom right, #0A257D,#061649);
+    background-attachment:fixed;
 }
 
 *,
