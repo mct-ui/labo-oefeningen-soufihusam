@@ -461,7 +461,10 @@ a:hover{
         padding: 0 8px;
 }
 
-
+/*
+    Component: CTA
+    
+*/
 .c-cta__button {
     Display: inline-block;
     Line-height: 24px;
@@ -470,6 +473,90 @@ a:hover{
     Background: linear-gradient(to right,#033AA7, #0053FB);
     box-shadow: 0px 0px 5px lightblue ;
 }
+
+
+/*
+    Component: figure
+    ---
+    Special type of figure and figcaption
+*/
+
+/*
+    Component: figure
+    ---
+    Special type of figure and figcaption
+*/
+/* 
+.c-figure {
+    position: relative;
+}
+
+.c-figure__caption {
+    line-height: 15px;
+    margin-top: 8px;
+    padding-left: 6px;
+    padding-top: 1px;
+    border: 2px solid #5051DB;
+    border-width: 0 0 0 2px;
+    color:#202024;
+}
+
+@media (min-width: 768px) {
+    .c-figure__caption--absolute {
+        position: absolute;
+        top: 8px;
+        right: 6px;
+        margin-right: 8px;
+        text-align: right;
+        background-color: #fff;
+        padding: 16px;
+        max-width: 260px;
+        border-width: 0 4px 0 0;
+    }
+}
+
+@media (min-width: 992px) {
+    .c-figure__caption--absolute {
+        position: absolute;
+        top: 8px;
+        right: 6px;
+        margin-right: 8px;
+        text-align: right;
+        background-color: #fff;
+        padding: 16px;
+        max-width: 260px;
+        border-width: 0 4px 0 0;
+    }
+} */
+
+.c-figure {
+    position: relative;
+}
+
+.c-figure__caption {
+    line-height: 15px;
+    margin-top: 8px;
+    padding-left: 6px;
+    padding-top: 1px;
+    border: 2px solid #5051DB;
+    border-width: 0 0 0 2px;
+    color:#202024;
+}
+
+@media (min-width: 768px) {
+    .c-figure__caption--absolute {
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin-right: 158px;
+        text-align: right;
+        background-color: #fff;
+        padding: 16px;
+        max-width: 260px;
+        border-width: 0 4px 0 0;
+    }
+}
+
 /*------------------------------------*\
   #UTILITIES
 \*------------------------------------*/
