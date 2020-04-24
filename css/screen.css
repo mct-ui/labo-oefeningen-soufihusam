@@ -399,6 +399,55 @@ a:focus {
     height: 100%;
 }
 
+/*
+    Component: header
+    ---
+    Main header of the website
+*/
+
+.c-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: ;
+    
+    
+}
+
+
+/*
+    Component: nav
+    ---
+     menu
+*/
+
+.c-nav {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+/* .c-nav__list {
+    display: flex;
+    justify-content:space-between; */
+    
+    
+}
+
+@media (min-width: 576px) {
+    .c-nav__list {
+        display: block;
+        justify-content:space-between;
+    }
+}
+
+@media (min-width: 992px) {
+    .c-nav__list {
+        display: flex;
+        justify-content:space-around ;
+    }
+}
+
 /*------------------------------------*\
   #UTILITIES
 \*------------------------------------*/
